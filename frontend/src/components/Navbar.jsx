@@ -13,7 +13,7 @@ const Navbar = () => {
 			<div className='container mx-auto px-4 py-3'>
 				<div className='flex flex-wrap justify-between items-center'>
 					<Link to='/' className='text-2xl font-bold text-emerald-400 items-center space-x-2 flex'>
-						E-Commerce
+						Outfit-Trend
 					</Link>
 
 					<nav className='flex flex-wrap items-center gap-4'>
@@ -74,8 +74,8 @@ const Navbar = () => {
 								</Link>
 								<Link
 									to={"/login"}
-									className='bg-gray-700 hover:bg-gray-600 text-white py-2 px-4 
-									rounded-md flex items-center transition duration-300 ease-in-out'
+									className='hidden bg-gray-700 hover:bg-gray-600 text-white py-2 px-4 
+									rounded-md md:flex items-center transition duration-300 ease-in-out'
 								>
 									<LogIn className='mr-2' size={18} />
 									Login
