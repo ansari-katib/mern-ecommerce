@@ -15,7 +15,7 @@ import { connectDB } from "./lib/db.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT =  5000 || process.env.PORT;
 
 const __dirname = path.resolve();
 
